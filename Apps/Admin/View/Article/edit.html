@@ -1,0 +1,116 @@
+<!-- 后台文章管理/文章内容编辑页 -->
+
+<include file="Index/header"/>
+
+<!-- 内容 -->
+<form class="form-horizontal" id="bgbcms-submit-form">
+    <div class="form-group">
+        <label for="article-title" class="col-sm-2 control-label">标题: </label>
+        <div class="col-sm-8">
+            <input type="text" class="form-control" id="article-title" placeholder="标题" name="title" value="{{$article['title']}}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="article-short-title" class="col-sm-2 control-label">短标题: </label>
+        <div class="col-sm-8">
+            <input type="text" class="form-control" id="article-short-title" placeholder="短标题" name="small_title" value="{{$article['small_title']}}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="upload-img-btn" class="col-sm-2 control-label">缩略图: </label>
+        <div class="col-sm-8">
+            <input type="file" class="form-control" id="upload-img-btn" placeholder="缩图" name="file_upload" multiple>
+            <!-- 预览图 -->
+            <img src="{{$article['thumb']}}" style="display:none;" id="upload-img-display" width="150" height="150">
+            <input type="hidden" id="upload-img-src" name="thumb" multiple>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="article-title-color" class="col-sm-2 control-label">标题颜色: </label>
+        <div class="col-sm-8">
+            <select class="form-control" id="article-title-color" name="title_font_color">
+                <option value="#000">==请选择颜色==</option>
+                <foreach name="titleColors" item="color">
+                    <option value="{{$key}}" <if condition="$article['title_font_color'] eq $key">selected</if> >{{$color}}</option>
+                </foreach>
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="article-type" class="col-sm-2 control-label">所属栏目: </label>
+        <div class="col-sm-8">
+            <select class="form-control" id="article-type" name="catid">
+                <foreach name="bars" item="bar">
+                    <option value="{{$bar.id}}" <if condition="$bar['id'] eq $article['catid']">selected</if> >{{$bar.name}}</option>
+                </foreach>
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="article-source" class="col-sm-2 control-label">文章来源: </label>
+        <div class="col-sm-8">
+            <select class="form-control" id="article-source" name="copyfrom">
+                <foreach name="copyfroms" item="copyfrom">
+                    <option value="{{$key}}" <if condition="$key eq $article['copyfrom']">selected</if> >{{$copyfrom}}</option>
+                </foreach>
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="article-content" class="col-sm-2 control-label">内容: </label>
+        <div class="col-sm-8">
+                <textarea id="article-content" class="form-control" name="content" cols="30" rows="20">{{$content['content']}}</textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="article-describe" class="col-sm-2 control-label">描述: </label>
+        <div class="col-sm-8">
+            <input type="text" class="form-control" id="article-describe" name="description" placeholder="描述" value="{{$article['description']}}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="article-keywords" class="col-sm-2 control-label">关键字: </label>
+        <div class="col-sm-8">
+            <input type="text" class="form-control" id="article-keywords" name="keywords" placeholder="关键字" value="{{$article['keywords']}}">
+        </div>
+    </div>
+    <!-- Article ID -->
+    <input type="hidden" name="article_id" value="{{$id}}">
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-8">
+            <input type="submit" class="btn btn-primary" id="bgbcms-btn-submit" value="保存">
+        </div>
+    </div>
+
+</form>
+
+
+<!-- kindeditor -->
+<script charset="utf-8" src="__PUBLIC__/vendor/kindeditor/kindeditor-all.js"></script>
+<script charset="utf-8" src="__PUBLIC__/vendor/kindeditor/lang/zh-CN.js"></script>
+<script>
+    var options = {
+        uploadJson: '__ROOT__/index.php?m=Admin&c=Image&a=kindupload',
+        filePostName: 'article_img',
+        afterBlur: function(){this.sync();},    // 同步数据, 同步后可以直接取得 textarea 的value
+    };
+    KindEditor.ready(function(K) {
+        window.editor = K.create('#article-content', options);
+    });
+</script>
+
+<script src="__PUBLIC__/js/admin/image.js"></script>
+
+
+<!--URL 提交的URL地址-->
+<script>
+    var URL = {
+        //'editsubmit' : '__ROOT__/index.php?m=Admin&c=Article&a=editSubmit',
+        'image_upload_swf': '__PUBLIC__/vendor/uploadify/uploadify.swf',
+        'image_upload': '__ROOT__/index.php?m=Admin&c=Image&a=upload',
+        'save_url': '__ROOT__/index.php?m=Admin&c=Article&a=save',
+        'jump_url': '__ROOT__/index.php?m=Admin&c=Article&a=index'
+    }
+</script>
+
+<include file="Index/footer"/>

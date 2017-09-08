@@ -1,0 +1,33 @@
+<!--错误页面-->
+
+<include file="Index/header" />
+
+<class class="container text-center">
+    <div class="h1 text-danger">
+        {{$msg}}
+    </div>
+    <div class="h3 text-info">
+        系统将在
+        <span style="color:Fuchsia;">
+        5
+        </span>秒后自动跳转到首页
+    </div>
+
+</class>
+
+<script>
+    setInterval("jump()", 1000);
+
+    var timer = 5;
+
+    function jump(){
+        timer--;
+        if (0 === timer){
+            location.href = "__ROOT__";
+            return;
+        }
+        $("span").text(' ' + timer + ' ');
+    }
+</script>
+
+<include file="Index/footer"/>

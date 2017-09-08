@@ -1,0 +1,20 @@
+<!-- 内容页header面包屑导航条 -->
+
+<!-- Page Heading -->
+<div class="row">
+    <div class="col-lg-12">
+        <ol class="breadcrumb">
+            <li>
+                <i class="fa fa-dashboard"></i>
+                <a href="{{$breadCrumb['first']['url']}}">{{$breadCrumb['first']['name']}}</a>
+            </li>
+            <present name="breadCrumb['second']['name']">
+                <li class="active">
+                    <i class="fa fa-table"></i>
+                    {{$breadCrumb['second']['name']}}
+                </li>
+            </present>
+        </ol>
+    </div>
+</div>
+<!-- /.row -->

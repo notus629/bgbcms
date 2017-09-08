@@ -1,0 +1,30 @@
+[ 2017-08-05T18:55:37+08:00 ] 127.0.0.1 /bgbcms/menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001132s ]
+ERR: 无法加载模块:Menu
+
+[ 2017-08-05T18:55:54+08:00 ] 127.0.0.1 /bgbcms/index.php/menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000975s ]
+ERR: 无法加载模块:Menu
+
+[ 2017-08-05T18:56:06+08:00 ] 127.0.0.1 /bgbcms/index.php/Menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+ERR: 无法加载模块:Menu
+
+[ 2017-08-05T18:56:12+08:00 ] 127.0.0.1 /bgbcms/index.php/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+ERR: 无法加载模块:Menu
+
+[ 2017-08-05T18:56:15+08:00 ] 127.0.0.1 /bgbcms/index.php/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+ERR: 无法加载模块:Menu
+

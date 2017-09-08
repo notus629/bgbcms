@@ -1,0 +1,48 @@
+<!--前台文章列表页-->
+
+<include file="Index/header"/>
+
+<section>
+
+    <div class="container">
+        <div class="row">
+            <!--主信息栏-->
+            <div class="col-md-9 col-sm-9">
+
+                <!--news list 文章列表-->
+                <div class="news-list">
+                    <foreach name="result.articles" item="article">
+                        <dl>
+                            <dt>
+                                <a target="_blank" href="__ROOT__/index.php?m=Home&c=Detail&a=index&id={{$article.article_id}}">{{$article.title}}</a>
+                            </dt>
+                            <dd class="news-img">
+                                <a target="_blank" href="__ROOT__/index.php?m=Home&c=Detail&a=index&id={{$article.article_id}}">
+                                    <img src="{{$article.thumb}}" alt="{{$article.title}}" width="200" height="120">
+                                </a>
+                            </dd>
+                            <dd class="news-intro">
+                                {{$article.description}}
+                            </dd>
+                            <dd class="news-info">
+                                {{$article.keywords}}
+                                <span>{{$article.create_time|date="Y-m-d H:i:s", ###}}</span>
+                                阅读(<i class="news_count node-{{$article.article_id}}"  news-id="{{$article.article_id}}"></i>)
+                            </dd>
+                        </dl>
+                    </foreach>
+                    <div class="tp-page">
+                        {{$result.pageRes}}
+                    </div>
+                </div>
+
+            </div>
+
+            <!--右侧边栏-->
+            <include file="Index/right"/>
+        </div>
+    </div>
+
+</section>
+
+<include file="Index/footer"/>

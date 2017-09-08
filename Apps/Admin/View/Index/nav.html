@@ -1,0 +1,42 @@
+<!-- 导航条（包含侧边栏) -->
+
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.php?m=Admin">Bugber CMS 后台管理</a>
+    </div>
+    <!-- /.navbar-header -->
+
+    <ul class="nav navbar-top-links navbar-right">
+        <!-- /.dropdown -->
+        <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                <?php echo $_SESSION['username']; ?>
+                <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
+            </a>
+            <ul class="dropdown-menu dropdown-user">
+                <li><a href="__ROOT__"><i class="fa fa-home fa-fw"></i> 主页</a></li>
+                <li><a href="__APP__?m=Admin&c=Personal&a=index"><i class="fa fa-user fa-fw"></i> 个人信息</a>
+                </li>
+                <li><a href="__APP__?m=Admin&c=Personal&a=pwd"><i class="fa fa-gear fa-fw"></i> 密码修改</a>
+                </li>
+                <li class="divider"></li>
+                <li><a href="__APP__?m=Admin&c=Login&a=logout"><i class="fa fa-sign-out fa-fw"></i> 退出</a>
+                </li>
+            </ul>
+            <!-- /.dropdown-user -->
+        </li>
+        <!-- /.dropdown -->
+    </ul>
+    <!-- /.navbar-top-links -->
+
+    <!-- 侧边栏 -->
+    <include file="Index/sidebar" />
+
+</nav>

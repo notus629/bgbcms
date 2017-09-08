@@ -1,0 +1,61 @@
+<!-- 缓存配置 -->
+
+<include file="Index/header" />
+
+
+<!-- 配置选项 -->
+<form class="form-horizontal" id="bgbcms-submit-form">
+
+    <include file="buttongroup"/>
+
+    <div class="form-group">
+        <label for="cache" class="control-label col-sm-2">更新首页缓存</label>
+        <div class="col-sm-8">
+            <a href="" class="btn btn-default" id="cache">确定更新</a>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="backup" class="control-label col-sm-2">备份数据库</label>
+        <div class="col-sm-8">
+            <a href="" class="btn btn-default" id="backup">确定备份</a>
+        </div>
+    </div>
+
+</form>
+
+
+
+
+<script>
+    var URL = {
+        cache: '__ROOT__/index.php?m=Admin&c=Basic&a=build',
+        backup: "__ROOT__/index.php?m=Admin&c=Basic&a=backup",
+    }
+
+    // 立即生成首页缓存
+    $('#cache').on('click', function(e){
+        e.preventDefault();
+
+        $.get(URL.cache, '', function(result){
+            if (result.status == 1){
+                return dialog.success('缓存生成成功!');
+            }
+            return dialog.error('缓存生成失败!');
+        })
+    });
+
+    // 立即备份数据库
+    $('#backup').on('click', function(e){
+        e.preventDefault();
+
+        $.get(URL.backup, '', function(result){
+            if (result.status == 1){
+                return dialog.success('数据库备份成功!');
+            }
+            return dialog.error('数据库备份失败!');
+        })
+    });
+</script>
+
+
+<include file="Index/footer" />

@@ -1,0 +1,39 @@
+<!--右侧边栏-->
+
+<div class="col-md-3 col-sm-3">
+
+    <!--标题-->
+    <div class="right-title">
+        <h3>文章排行</h3>
+        <span>TOP ARTICLES</span>
+    </div>
+
+    <!--内容-->
+    <div class="right-content">
+        <ul>
+            <volist name="result.ranks" id="vo" key="k">
+                <li class="num{{$k}} curr">
+                    <a target="_blank" href="__ROOT__/index.php?m=Home&c=Detail&a=index&id={{$vo.article_id}}">{{$vo.small_title}}</a>
+                    <if condition="$k eq 1">
+                        <div class="intro">
+                            {{$vo.description}}
+                        </div>
+                    </if>
+                </li>
+            </volist>
+        </ul>
+    </div>
+
+    <!--广告-->
+    <volist name="result.advs" id="adv" key="k">
+        <div class="right-hot">
+            <a target="_blank" href="{{$adv.url}}">
+                <img src="{{$adv.thumb}}" alt="adv.title">
+            </a>
+        </div>
+    </volist>
+
+
+</div>
+
+

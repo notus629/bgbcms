@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?>非法的 p 或 pageSize 参数!

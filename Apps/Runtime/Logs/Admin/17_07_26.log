@@ -1,0 +1,966 @@
+[ 2017-07-26T12:12:58+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001181s ]
+NOTIC: [8] Undefined index: username /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Admin/Controller/IndexController.class.php 第 10 行.
+
+[ 2017-07-26T12:12:58+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+NOTIC: [8] Undefined index: username /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Admin/Controller/LoginController.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000277s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021771s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021902s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001166s ]
+
+[ 2017-07-26T12:13:07+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php?m=Admin&c=Login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'36.249.132.80' (using password: YES)
+
+[ 2017-07-26T12:13:30+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php?m=Admin&c=Login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007005s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'36.249.132.80' (using password: YES)
+
+[ 2017-07-26T13:54:47+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php?m=Admin&c=Login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001177s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'36.249.132.80' (using password: YES)
+
+[ 2017-07-26T13:57:27+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002846s ]
+NOTIC: [8] Undefined index: username /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Admin/Controller/LoginController.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000450s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000807s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022392s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022630s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000885s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001789s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002208s ]
+
+[ 2017-07-26T13:57:41+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php/Admin/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001320s ]
+NOTIC: [8] Undefined index: username /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Admin/Controller/LoginController.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000282s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022650s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001899s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004298s ]
+
+[ 2017-07-26T13:57:50+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php?m=Admin&c=Login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001156s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'36.249.132.80' (using password: YES)
+
+[ 2017-07-26T13:59:16+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php?m=Admin&c=Login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001131s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'36.249.132.80' (using password: YES)
+
+[ 2017-07-26T13:59:29+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php?m=Admin&c=Login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000453s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'36.249.132.80' (using password: YES)
+
+[ 2017-07-26T14:03:16+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php/Admin/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+NOTIC: [8] Undefined index: username /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Admin/Controller/LoginController.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000407s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014646s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014831s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000811s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001070s ]
+
+[ 2017-07-26T14:03:24+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php?m=Admin&c=Login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000955s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'36.249.132.80' (using password: YES)
+
+[ 2017-07-26T14:04:53+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php?m=Admin&c=Login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001174s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'bgcms'
+
+[ 2017-07-26T14:04:58+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php/Admin/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000933s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001399s ]
+NOTIC: [8] Undefined index: username /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Admin/Controller/LoginController.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000351s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015803s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001009s ]
+
+[ 2017-07-26T14:05:02+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php?m=Admin&c=Login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000944s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001949s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'bgcms'
+
+[ 2017-07-26T14:05:40+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php?m=Admin&c=Login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+SQL: SHOW COLUMNS FROM `bugber_user` [ RunTime:0.1451s ]
+SQL: SELECT `password`,`status` FROM `bugber_user` WHERE ( username="12" ) LIMIT 1   [ RunTime:0.0285s ]
+
+[ 2017-07-26T14:05:50+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php?m=Admin&c=Login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001339s ]
+SQL: SHOW COLUMNS FROM `bugber_user` [ RunTime:0.0295s ]
+SQL: SELECT `password`,`status` FROM `bugber_user` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0283s ]
+
+[ 2017-07-26T14:05:51+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001935s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000336s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023042s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023312s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001219s ]
+
+[ 2017-07-26T14:06:01+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php?m=Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018796s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018929s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001149s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001365s ]
+
+[ 2017-07-26T14:06:04+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php?m=Admin&c=Menu&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+NOTIC: [8] Undefined index: type /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Admin/Controller/MenuController.class.php 第 28 行.
+NOTIC: [8] Undefined index: p /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Admin/Controller/MenuController.class.php 第 29 行.
+NOTIC: [8] Undefined index: pageSize /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Admin/Controller/MenuController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `bugber_menu` [ RunTime:0.0298s ]
+SQL: SELECT `order`,`id`,`name`,`mname`,`type`,`state` FROM `bugber_menu` ORDER BY `order`,`id` LIMIT 0,2   [ RunTime:0.0280s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bugber_menu` LIMIT 1   [ RunTime:0.0290s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000306s ]
+NOTIC: [8] Undefined variable: page /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Runtime/Cache/Admin/db3da01c8f36ad38f6ba709720b2de06.php 第 234 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030897s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031052s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001136s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001337s ]
+
+[ 2017-07-26T14:06:09+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php?m=Admin&c=Menu&a=stateChange&id=20&state=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+SQL: SHOW COLUMNS FROM `bugber_menu` [ RunTime:0.1465s ]
+SQL: UPDATE `bugber_menu` SET `state`='0' WHERE `id` = 20 [ RunTime:0.1336s ]
+
+[ 2017-07-26T14:06:14+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+NOTIC: [8] Undefined index: type /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Admin/Controller/MenuController.class.php 第 28 行.
+NOTIC: [8] Undefined index: p /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Admin/Controller/MenuController.class.php 第 29 行.
+NOTIC: [8] Undefined index: pageSize /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Admin/Controller/MenuController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `bugber_menu` [ RunTime:0.0301s ]
+SQL: SELECT `order`,`id`,`name`,`mname`,`type`,`state` FROM `bugber_menu` ORDER BY `order`,`id` LIMIT 0,2   [ RunTime:0.0292s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bugber_menu` LIMIT 1   [ RunTime:0.0285s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+NOTIC: [8] Undefined variable: page /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Runtime/Cache/Admin/db3da01c8f36ad38f6ba709720b2de06.php 第 234 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022229s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022368s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000663s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000802s ]
+
+[ 2017-07-26T14:06:15+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+NOTIC: [8] Undefined index: type /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Admin/Controller/MenuController.class.php 第 28 行.
+NOTIC: [8] Undefined index: p /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Admin/Controller/MenuController.class.php 第 29 行.
+NOTIC: [8] Undefined index: pageSize /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Admin/Controller/MenuController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `bugber_menu` [ RunTime:0.0289s ]
+SQL: SELECT `order`,`id`,`name`,`mname`,`type`,`state` FROM `bugber_menu` ORDER BY `order`,`id` LIMIT 0,2   [ RunTime:0.0285s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bugber_menu` LIMIT 1   [ RunTime:0.0274s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000328s ]
+NOTIC: [8] Undefined variable: page /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Runtime/Cache/Admin/db3da01c8f36ad38f6ba709720b2de06.php 第 234 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029242s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029407s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001247s ]
+
+[ 2017-07-26T14:06:16+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+NOTIC: [8] Undefined index: type /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Admin/Controller/MenuController.class.php 第 28 行.
+NOTIC: [8] Undefined index: p /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Admin/Controller/MenuController.class.php 第 29 行.
+NOTIC: [8] Undefined index: pageSize /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Admin/Controller/MenuController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `bugber_menu` [ RunTime:0.0286s ]
+SQL: SELECT `order`,`id`,`name`,`mname`,`type`,`state` FROM `bugber_menu` ORDER BY `order`,`id` LIMIT 0,2   [ RunTime:0.0284s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bugber_menu` LIMIT 1   [ RunTime:0.0272s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000338s ]
+NOTIC: [8] Undefined variable: page /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Runtime/Cache/Admin/db3da01c8f36ad38f6ba709720b2de06.php 第 234 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029937s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030077s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000624s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000758s ]
+
+[ 2017-07-26T14:06:16+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+NOTIC: [8] Undefined index: type /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Admin/Controller/MenuController.class.php 第 28 行.
+NOTIC: [8] Undefined index: p /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Admin/Controller/MenuController.class.php 第 29 行.
+NOTIC: [8] Undefined index: pageSize /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Admin/Controller/MenuController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `bugber_menu` [ RunTime:0.0295s ]
+SQL: SELECT `order`,`id`,`name`,`mname`,`type`,`state` FROM `bugber_menu` ORDER BY `order`,`id` LIMIT 0,2   [ RunTime:0.0280s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bugber_menu` LIMIT 1   [ RunTime:0.0287s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000284s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000534s ]
+NOTIC: [8] Undefined variable: page /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Runtime/Cache/Admin/db3da01c8f36ad38f6ba709720b2de06.php 第 234 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030920s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000892s ]
+
+[ 2017-07-26T14:06:16+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+NOTIC: [8] Undefined index: type /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Admin/Controller/MenuController.class.php 第 28 行.
+NOTIC: [8] Undefined index: p /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Admin/Controller/MenuController.class.php 第 29 行.
+NOTIC: [8] Undefined index: pageSize /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Admin/Controller/MenuController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `bugber_menu` [ RunTime:0.0286s ]
+SQL: SELECT `order`,`id`,`name`,`mname`,`type`,`state` FROM `bugber_menu` ORDER BY `order`,`id` LIMIT 0,2   [ RunTime:0.0282s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bugber_menu` LIMIT 1   [ RunTime:0.0284s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000338s ]
+NOTIC: [8] Undefined variable: page /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Runtime/Cache/Admin/db3da01c8f36ad38f6ba709720b2de06.php 第 234 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026563s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000856s ]
+
+[ 2017-07-26T14:06:17+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001227s ]
+NOTIC: [8] Undefined index: type /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Admin/Controller/MenuController.class.php 第 28 行.
+NOTIC: [8] Undefined index: p /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Admin/Controller/MenuController.class.php 第 29 行.
+NOTIC: [8] Undefined index: pageSize /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Admin/Controller/MenuController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `bugber_menu` [ RunTime:0.0295s ]
+SQL: SELECT `order`,`id`,`name`,`mname`,`type`,`state` FROM `bugber_menu` ORDER BY `order`,`id` LIMIT 0,2   [ RunTime:0.0289s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bugber_menu` LIMIT 1   [ RunTime:0.0284s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000301s ]
+NOTIC: [8] Undefined variable: page /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Runtime/Cache/Admin/db3da01c8f36ad38f6ba709720b2de06.php 第 234 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029325s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001161s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001441s ]
+
+[ 2017-07-26T14:06:18+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001044s ]
+NOTIC: [8] Undefined index: type /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Admin/Controller/MenuController.class.php 第 28 行.
+NOTIC: [8] Undefined index: p /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Admin/Controller/MenuController.class.php 第 29 行.
+NOTIC: [8] Undefined index: pageSize /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Admin/Controller/MenuController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `bugber_menu` [ RunTime:0.0294s ]
+SQL: SELECT `order`,`id`,`name`,`mname`,`type`,`state` FROM `bugber_menu` ORDER BY `order`,`id` LIMIT 0,2   [ RunTime:0.0287s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bugber_menu` LIMIT 1   [ RunTime:0.0273s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+NOTIC: [8] Undefined variable: page /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Runtime/Cache/Admin/db3da01c8f36ad38f6ba709720b2de06.php 第 234 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026181s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026347s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000789s ]
+
+[ 2017-07-26T14:06:18+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+NOTIC: [8] Undefined index: type /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Admin/Controller/MenuController.class.php 第 28 行.
+NOTIC: [8] Undefined index: p /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Admin/Controller/MenuController.class.php 第 29 行.
+NOTIC: [8] Undefined index: pageSize /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Admin/Controller/MenuController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `bugber_menu` [ RunTime:0.0290s ]
+SQL: SELECT `order`,`id`,`name`,`mname`,`type`,`state` FROM `bugber_menu` ORDER BY `order`,`id` LIMIT 0,2   [ RunTime:0.0290s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bugber_menu` LIMIT 1   [ RunTime:0.0285s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000281s ]
+NOTIC: [8] Undefined variable: page /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Runtime/Cache/Admin/db3da01c8f36ad38f6ba709720b2de06.php 第 234 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027126s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000965s ]
+
+[ 2017-07-26T14:06:18+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+NOTIC: [8] Undefined index: type /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Admin/Controller/MenuController.class.php 第 28 行.
+NOTIC: [8] Undefined index: p /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Admin/Controller/MenuController.class.php 第 29 行.
+NOTIC: [8] Undefined index: pageSize /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Admin/Controller/MenuController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `bugber_menu` [ RunTime:0.0285s ]
+SQL: SELECT `order`,`id`,`name`,`mname`,`type`,`state` FROM `bugber_menu` ORDER BY `order`,`id` LIMIT 0,2   [ RunTime:0.0278s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bugber_menu` LIMIT 1   [ RunTime:0.0279s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+NOTIC: [8] Undefined variable: page /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Runtime/Cache/Admin/db3da01c8f36ad38f6ba709720b2de06.php 第 234 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028841s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001091s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001366s ]
+
+[ 2017-07-26T14:06:19+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+NOTIC: [8] Undefined index: type /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Admin/Controller/MenuController.class.php 第 28 行.
+NOTIC: [8] Undefined index: p /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Admin/Controller/MenuController.class.php 第 29 行.
+NOTIC: [8] Undefined index: pageSize /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Admin/Controller/MenuController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `bugber_menu` [ RunTime:0.0293s ]
+SQL: SELECT `order`,`id`,`name`,`mname`,`type`,`state` FROM `bugber_menu` ORDER BY `order`,`id` LIMIT 0,2   [ RunTime:0.0282s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bugber_menu` LIMIT 1   [ RunTime:0.0283s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+NOTIC: [8] Undefined variable: page /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Runtime/Cache/Admin/db3da01c8f36ad38f6ba709720b2de06.php 第 234 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026651s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001144s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001522s ]
+
+[ 2017-07-26T14:06:22+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php?m=Admin&c=Menu&a=stateChange&id=21&state=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+SQL: SHOW COLUMNS FROM `bugber_menu` [ RunTime:0.0282s ]
+SQL: UPDATE `bugber_menu` SET `state`='0' WHERE `id` = 21 [ RunTime:0.0279s ]
+
+[ 2017-07-26T14:06:25+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+NOTIC: [8] Undefined index: type /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Admin/Controller/MenuController.class.php 第 28 行.
+NOTIC: [8] Undefined index: p /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Admin/Controller/MenuController.class.php 第 29 行.
+NOTIC: [8] Undefined index: pageSize /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Admin/Controller/MenuController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `bugber_menu` [ RunTime:0.0288s ]
+SQL: SELECT `order`,`id`,`name`,`mname`,`type`,`state` FROM `bugber_menu` ORDER BY `order`,`id` LIMIT 0,2   [ RunTime:0.1472s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bugber_menu` LIMIT 1   [ RunTime:0.0279s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000288s ]
+NOTIC: [8] Undefined variable: page /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Runtime/Cache/Admin/db3da01c8f36ad38f6ba709720b2de06.php 第 234 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024193s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001191s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001432s ]
+
+[ 2017-07-26T14:06:29+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php?m=Admin&c=Menu&a=stateChange&id=20&state=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+SQL: SHOW COLUMNS FROM `bugber_menu` [ RunTime:0.0284s ]
+SQL: UPDATE `bugber_menu` SET `state`='1' WHERE `id` = 20 [ RunTime:0.0278s ]
+
+[ 2017-07-26T14:06:31+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+NOTIC: [8] Undefined index: type /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Admin/Controller/MenuController.class.php 第 28 行.
+NOTIC: [8] Undefined index: p /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Admin/Controller/MenuController.class.php 第 29 行.
+NOTIC: [8] Undefined index: pageSize /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Admin/Controller/MenuController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `bugber_menu` [ RunTime:0.0286s ]
+SQL: SELECT `order`,`id`,`name`,`mname`,`type`,`state` FROM `bugber_menu` ORDER BY `order`,`id` LIMIT 0,2   [ RunTime:0.0275s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bugber_menu` LIMIT 1   [ RunTime:0.0277s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+NOTIC: [8] Undefined variable: page /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Runtime/Cache/Admin/db3da01c8f36ad38f6ba709720b2de06.php 第 234 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021968s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022285s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001228s ]
+
+[ 2017-07-26T14:06:33+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php?m=Admin&c=Menu&a=stateChange&id=21&state=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+SQL: SHOW COLUMNS FROM `bugber_menu` [ RunTime:0.0289s ]
+SQL: UPDATE `bugber_menu` SET `state`='1' WHERE `id` = 21 [ RunTime:0.0434s ]
+
+[ 2017-07-26T14:06:34+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+NOTIC: [8] Undefined index: type /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Admin/Controller/MenuController.class.php 第 28 行.
+NOTIC: [8] Undefined index: p /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Admin/Controller/MenuController.class.php 第 29 行.
+NOTIC: [8] Undefined index: pageSize /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Admin/Controller/MenuController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `bugber_menu` [ RunTime:0.0294s ]
+SQL: SELECT `order`,`id`,`name`,`mname`,`type`,`state` FROM `bugber_menu` ORDER BY `order`,`id` LIMIT 0,2   [ RunTime:0.0364s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bugber_menu` LIMIT 1   [ RunTime:0.0286s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+NOTIC: [8] Undefined variable: page /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Runtime/Cache/Admin/db3da01c8f36ad38f6ba709720b2de06.php 第 234 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024349s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024526s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001136s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001342s ]
+
+[ 2017-07-26T14:06:40+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php?m=Admin&c=Menu&a=index&type=-1&p=2&pageSize=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+SQL: SHOW COLUMNS FROM `bugber_menu` [ RunTime:0.0285s ]
+SQL: SELECT `order`,`id`,`name`,`mname`,`type`,`state` FROM `bugber_menu` ORDER BY `order`,`id` LIMIT 2,2   [ RunTime:0.1485s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bugber_menu` LIMIT 1   [ RunTime:0.0281s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000285s ]
+NOTIC: [8] Undefined variable: page /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Runtime/Cache/Admin/db3da01c8f36ad38f6ba709720b2de06.php 第 234 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065632s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001146s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001377s ]
+
+[ 2017-07-26T14:06:42+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php?m=Admin&c=Menu&a=index&type=-1&p=1&pageSize=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000837s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+SQL: SHOW COLUMNS FROM `bugber_menu` [ RunTime:0.0286s ]
+SQL: SELECT `order`,`id`,`name`,`mname`,`type`,`state` FROM `bugber_menu` ORDER BY `order`,`id` LIMIT 0,2   [ RunTime:0.1462s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bugber_menu` LIMIT 1   [ RunTime:0.1336s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+NOTIC: [8] Undefined variable: page /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Runtime/Cache/Admin/db3da01c8f36ad38f6ba709720b2de06.php 第 234 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021132s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000991s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001193s ]
+
+[ 2017-07-26T14:06:50+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php?m=Admin&c=Article&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+
+[ 2017-07-26T14:06:50+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php/Admin/Article/item.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+NOTIC: [8] Undefined variable: menu_type /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Runtime/Cache/Admin/ff874b4eae41e24ae0a265590b63794e.php 第 163 行.
+NOTIC: [8] Undefined variable: menu_type /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Runtime/Cache/Admin/ff874b4eae41e24ae0a265590b63794e.php 第 166 行.
+NOTIC: [8] Undefined variable: menu_type /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Runtime/Cache/Admin/ff874b4eae41e24ae0a265590b63794e.php 第 169 行.
+NOTIC: [8] Undefined variable: contents /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Runtime/Cache/Admin/ff874b4eae41e24ae0a265590b63794e.php 第 214 行.
+NOTIC: [8] Undefined variable: currentPage /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Runtime/Cache/Admin/ff874b4eae41e24ae0a265590b63794e.php 第 245 行.
+NOTIC: [8] Undefined variable: pagecnt /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Runtime/Cache/Admin/ff874b4eae41e24ae0a265590b63794e.php 第 249 行.
+NOTIC: [8] Undefined variable: currentPage /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Runtime/Cache/Admin/ff874b4eae41e24ae0a265590b63794e.php 第 253 行.
+NOTIC: [8] Undefined variable: totalPage /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Runtime/Cache/Admin/ff874b4eae41e24ae0a265590b63794e.php 第 254 行.
+NOTIC: [8] Undefined variable: page /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/Apps/Runtime/Cache/Admin/ff874b4eae41e24ae0a265590b63794e.php 第 258 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025466s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001338s ]
+
+[ 2017-07-26T14:07:07+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php?m=Admin&c=Article&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023275s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023620s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000759s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001767s ]
+
+[ 2017-07-26T14:07:14+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php?m=Admin&c=Image&a=uploadify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+
+[ 2017-07-26T18:17:26+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php?m=Admin&c=Article&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000946s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001532s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000392s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025411s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000774s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001658s ]
+
+[ 2017-07-26T18:17:51+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php?m=Admin&c=Article&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000410s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020332s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020516s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001707s ]
+
+[ 2017-07-26T18:17:52+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php?m=Admin&c=Article&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000286s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020820s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020976s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001571s ]
+
+[ 2017-07-26T18:18:01+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php?m=Admin&c=Image&a=uploadify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000938s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001175s ]
+
+[ 2017-07-26T18:19:37+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php?m=Admin&c=Article&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000865s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001194s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000426s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026779s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026982s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001268s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001580s ]
+
+[ 2017-07-26T18:19:39+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php?m=Admin&c=Article&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000988s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000318s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026081s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026306s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001583s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001865s ]
+
+[ 2017-07-26T18:20:22+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php?m=Admin&c=Article&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000378s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020996s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021179s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001309s ]
+
+[ 2017-07-26T18:20:39+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php?m=Admin&c=Image&a=uploadify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001130s ]
+
+[ 2017-07-26T18:21:59+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php?m=Admin&c=Article&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001539s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000291s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000532s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031157s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002152s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002657s ]
+
+[ 2017-07-26T18:29:23+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php?m=Admin&c=Image&a=uploadify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001209s ]
+
+[ 2017-07-26T20:58:26+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php?m=Admin&c=Image&a=uploadify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+
+[ 2017-07-26T20:58:26+08:00 ] ::1 /vagr_ngx_ubun16_php5/www/bgbcms/index.php?m=Admin&c=Image&a=uploadify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+

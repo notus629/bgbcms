@@ -1,0 +1,22 @@
+<!--导航-->
+<nav class="navbar navbar-inverse">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="__ROOT__" class="navbar-brand">Bugber CMS</a>
+        </div>
+        <ul class="nav navbar-nav navbar-left">
+            <li>
+                <!--首页类别ID为0-->
+                <a href="__ROOT__" <if condition="$result['catId'] eq 0">class="curr"</if> >首页</a>
+            </li>
+            <volist name="result.navs" id="nav">
+                <li>
+                    <a href="__ROOT__/index.php?m=Home&c=Cat&a=index&id={{$nav.id}}" <if condition="$nav['id'] eq $result['catId']">class="curr"</if> >{{$nav.name}}</a>
+                </li>
+            </volist>
+            <div style="position:absolute; top: 5px; right:10px; font-size:xx-small; color:red;">
+                <a href="__ROOT__/index.php?m=Admin&c=Login&a=index">管理</a>
+            </div>
+        </ul>
+    </div>
+</nav>

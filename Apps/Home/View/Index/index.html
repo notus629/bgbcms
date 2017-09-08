@@ -1,0 +1,73 @@
+<!--前台首页-->
+
+<include file="Index/header"/>
+
+<section>
+
+    <div class="container">
+        <div class="row">
+            <!--主信息栏-->
+            <div class="col-md-9 col-sm-9">
+                <!--banner-->
+                <div class="banner">
+                    <!--大图推荐-->
+                    <div class="banner-left">
+                        <div class="banner-info">
+                            <span>阅读数</span><i class="news_count node-{{$result['bigPic']['id']}}" article-id="{{$result['bigPic']['id']}}" news-id="{{$result['bigPic']['id']}}"></i>
+                        </div>
+                        <a target="_blank" href="__ROOT__/index.php?m=Home&c=Detail&a=index&id={{$result['bigPic']['id']}}">
+                            <img src="{{$result['bigPic']['thumb']}}" width="670" height="360" alt="{{$result['bigPic']['title']}}">
+                        </a>
+                    </div>
+                    <!--小图推荐-->
+                    <div class="banner-right">
+                        <ul>
+                            <volist name="result.smallPic" id="pic">
+                                <li>
+                                    <a target="_blank" href="__ROOT__/index.php?m=Home&c=Detail&a=index&id={{$pic.id}}">
+                                        <img src="{{$pic.thumb}}" width="150" height="113" alt="{{$pic.title}}">
+                                    </a>
+                                </li>
+                            </volist>
+                        </ul>
+                    </div>
+                </div>
+
+                <!--news list 文章列表-->
+                <div class="news-list">
+                    <foreach name="result.articles" item="article">
+                        <dl>
+                            <dt>
+                                <a target="_blank" href="__ROOT__/index.php?m=Home&c=Detail&a=index&id={{$article.article_id}}">{{$article.title}}</a>
+                            </dt>
+                            <dd class="news-img">
+                                <a target="_blank" href="__ROOT__/index.php?m=Home&c=Detail&a=index&id={{$article.article_id}}">
+                                    <img src="{{$article.thumb}}" alt="{{$article.title}}" width="200" height="120">
+                                </a>
+                            </dd>
+                            <dd class="news-intro">
+                                {{$article.description}}
+                            </dd>
+                            <dd class="news-info">
+                                {{$article.keywords}}
+                                <span>{{$article.create_time|date="Y-m-d H:i:s", ###}}</span>
+                                阅读(<i class="news_count node-{{$article.article_id}}" news-id="{{$article.article_id}}"></i>)
+                            </dd>
+                        </dl>
+                    </foreach>
+                    <div class="tp-page">
+                        {{$result.pageRes}}
+                    </div>
+                </div>
+
+            </div>
+
+            <!--右侧边栏-->
+            <include file="Index/right"/>
+        </div>
+
+    </div>
+
+</section>
+
+<include file="Index/footer"/>

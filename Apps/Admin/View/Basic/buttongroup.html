@@ -1,0 +1,11 @@
+
+<!--按钮组-->
+
+<div class="form-group">
+    <div class="col-sm-4">
+        <div class="btn-group" role="group">
+            <a class='btn <if condition="$action eq 0">btn-primary <else />btn-default</if>' href="__ROOT__/index.php?m=Admin&c=Basic&a=index">基本配置</a>
+            <a class='btn <if condition="$action eq 1">btn-primary <else />btn-default</if>' href="__ROOT__/index.php?m=Admin&c=Basic&a=cache">缓存配置</a>
+        </div>
+    </div>
+</div>

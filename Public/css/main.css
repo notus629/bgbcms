@@ -1,0 +1,12 @@
+td.item-status {
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration-line: none;
+}
+
+/*.nav>li>a.active {*/
+    /*text-decoration: none;*/
+    /*background-color: #eee;*/
+/*}*/

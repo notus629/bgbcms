@@ -1,0 +1,26 @@
+<!--前台首页-->
+
+<include file="Index/header"/>
+
+<section>
+
+    <div class="container">
+        <div class="row">
+            <!--主信息栏-->
+            <div class="col-md-9 col-sm-9">
+
+                <div class="news-detail">
+                    <h1 style="color: {{$result.titleColor}}">{{$result.title}}</h1>
+                    {{$result.content}}
+                </div>
+
+            </div>
+
+            <!--右侧边栏-->
+            <include file="Index/right"/>
+        </div>
+    </div>
+
+</section>
+
+<include file="Index/footer"/>

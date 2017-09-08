@@ -1,0 +1,137 @@
+<!-- 推荐位内容管理 -->
+
+<include file="Index/header" />
+
+<!-- 推荐位内容 -->
+
+<!-- 列表搜索、筛选、添加工具栏 -->
+<div class="row">
+    <div class="col-lg-2">
+        <a class="btn btn-primary" href="__ROOT__/index.php?m=Admin&c=FeatureContent&a=add">
+            <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+            添加
+        </a>
+    </div>
+    <div class="col-lg-5">
+        <div class="input-group">
+            <span class="input-group-addon">推荐位</span>
+            <select name="type" id="type-select" class="form-control">
+                <option value="-1" <notpresent name="currentFeature">selected</notpresent> >
+                全部分类
+                </option>
+                <foreach name="featureNames" item="featureName">
+                    <option value="{{$featureName.id}}"
+                    <if condition="$currentFeature eq intval($featureName['id'])"> selected</if> >
+                    {{$featureName.name}}
+                    </option>
+                </foreach>
+            </select>
+        </div>
+    </div>
+    <div class="col-lg-5">
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="标题" name="title" value="<present name='title'>{{$title}}</present>">
+            <span class="input-group-btn">
+                    <button class="btn btn-primary" type="button" id="search-title">
+                        <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+            </span>
+        </div><!-- /input-group -->
+    </div><!-- /.col-lg-6 -->
+
+</div>
+<!-- /.row -->
+
+
+<!--推荐位内容列表-->
+<div class="row">
+    <div class="col-lg-12">
+        <h3></h3>
+        <div class="table-responsive">
+            <form action="">
+                <table class="table table-striped table-bordered table-hover" id="item-table">
+                    <thead>
+                    <tr>
+                        <th>排序&nbsp;
+                            <a title="更新排序" href="#" id="renew-order"><span class="glyphicon glyphicon-refresh" aria-hidden="true"></span>
+                            </a>
+                        </th>
+                        <th>ID</th>
+                        <th>标题</th>
+                        <th>推荐位</th>
+                        <th>创建时间</th>
+                        <th>更新时间</th>
+                        <th>封面图</th>
+                        <th>状态</th>
+                        <th>操作</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <volist name="featureContents" id="featureContent" key="k">
+                        <tr>
+                            <td>
+                                <input type="text" value="{{$featureContent.order}}" data-id="{{$featureContent.id}}">
+                            </td>
+                            <td>
+                                {{$featureContent.id}}
+                            </td>
+                            <td>{{$featureContent.title}}</td>
+                            <td>{{$featureContent.featureName}}</td>
+                            <td>{{$featureContent.create_time|date="Y-m-d H:i:s", ###}}</td>
+                            <td>{{$featureContent.update_time|date="Y-m-d H:i:s", ###}}</td>
+                            <td><if condition="$featureContent['thumb']">有<else />无</if></td>
+                            <td class="item-status" data-id="{{$featureContent.id}}" data-status="{{$featureContent.status}}">
+                                {{$featureContent['status']? '正常':'关闭'}}
+                            </td>
+                            <td>
+                                <a href="__ROOT__/index.php?m=Admin&c=FeatureContent&a=preEdit&id={{$featureContent.id}}">
+                                    <span class="glyphicon glyphicon-edit"></span>
+                                </a>&nbsp;
+                                <a href="__ROOT__/index.php?m=Admin&c=FeatureContent&a=remove&id={{$featureContent.id}}">
+                                    <span class="glyphicon glyphicon-remove-circle"></span>
+                                </a>
+                            </td>
+                        </tr>
+                    </volist>
+                    </tbody>
+                </table>
+            </form>
+        </div>
+
+        <!--分页按钮-->
+        <nav aria-label="Page navigation">
+            <ul class="pagination">
+                <li>
+                    <a href="#" aria-label="Previous" id="prev-page" data-cur="{{$currentPage}}">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+                <foreach name="pagecnt" item="vo">
+                    <li class="<if condition='$vo==$currentPage'>active</if>">
+                        <a href="#" class="pageno">{{$vo}}</a>
+                    </li>
+                </foreach>
+                <li>
+                    <a href="#" aria-label="Next" id="next-page" data-cur="{{$currentPage}}"
+                       data-total="{{$totalPage}}">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+                <!--{{$page}}-->
+            </ul>
+        </nav>
+    </div>
+</div>
+
+<script>
+    var URL = {
+        index: '__ROOT__/index.php?m=Admin&c=FeatureContent&a=index',
+        reneworder: '__ROOT__/index.php?m=Admin&c=FeatureContent&a=updateOrder',
+        statuschange: '__ROOT__/index.php?m=Admin&c=FeatureContent&a=updateStatus',
+        typefilter: '__ROOT__/index.php?m=Admin&c=FeatureContent&a=index&type=',
+    }
+</script>
+
+
+
+<include file="Index/footer" />

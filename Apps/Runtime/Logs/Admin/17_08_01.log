@@ -1,0 +1,59 @@
+[ 2017-08-01T12:40:12+08:00 ] ::1 /bgbcms/index.php?m=Admin&c=Menu&a=edit&id=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001891s ]
+SQL: SHOW COLUMNS FROM `bgbcms_menu` [ RunTime:0.0590s ]
+SQL: SELECT `id`,`name`,`type`,`mname`,`cname`,`aname`,`state` FROM `bgbcms_menu` WHERE `id` = 21 LIMIT 1   [ RunTime:0.1649s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000784s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041974s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042195s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001046s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003610s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003944s ]
+
+[ 2017-08-01T12:40:15+08:00 ] ::1 /bgbcms/index.php?m=Admin&c=Menu&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001286s ]
+NOTIC: [8] Undefined index: type /Users/llos/Documents/my_codes/bgbcms/Apps/Admin/Controller/MenuController.class.php 第 28 行.
+NOTIC: [8] Undefined index: p /Users/llos/Documents/my_codes/bgbcms/Apps/Admin/Controller/MenuController.class.php 第 29 行.
+NOTIC: [8] Undefined index: pageSize /Users/llos/Documents/my_codes/bgbcms/Apps/Admin/Controller/MenuController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `bgbcms_menu` [ RunTime:0.0586s ]
+SQL: SELECT `order`,`id`,`name`,`mname`,`type`,`state` FROM `bgbcms_menu` ORDER BY `order`,`id` LIMIT 0,2   [ RunTime:0.0361s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bgbcms_menu` LIMIT 1   [ RunTime:0.0367s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000296s ]
+NOTIC: [8] Undefined variable: page /Users/llos/Documents/my_codes/bgbcms/Apps/Runtime/Cache/Admin/db3da01c8f36ad38f6ba709720b2de06.php 第 234 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041699s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001663s ]
+
+[ 2017-08-01T12:40:17+08:00 ] ::1 /bgbcms/index.php?m=Admin&c=Menu&a=stateChange&id=20&state=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000881s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001146s ]
+SQL: SHOW COLUMNS FROM `bgbcms_menu` [ RunTime:0.0451s ]
+SQL: UPDATE `bgbcms_menu` SET `state`='0' WHERE `id` = 20 [ RunTime:0.0403s ]
+
